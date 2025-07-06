@@ -1,12 +1,8 @@
 version = 0.1
-
 [default.deploy.parameters]
 stack_name = "staging-todolistAWS3"
 s3_bucket = "todo-sam-staging-angelabtte-2025"
 s3_prefix = "todo-list-aws"
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
-parameter_overrides = "TableName=todo-staging-table
-
-
-
+parameter_overrides = "TableName=todo-staging-table"
