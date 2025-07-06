@@ -1,6 +1,4 @@
 version = 0.1
-<<<<<<< HEAD
-
 [default.deploy.parameters]
 stack_name = "prod-todolistAWS4"
 s3_bucket = "todo-sam-prod-angelabtte-2025"
